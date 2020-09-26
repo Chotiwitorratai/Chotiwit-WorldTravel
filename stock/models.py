@@ -8,5 +8,5 @@ class Product (models.Model):
     product_price = models.DecimalField(decimal_places=2, max_digits=7)
     product_image = models.CharField(max_length=64)
     product_status = models.IntegerField()
-# Create your models here.
+
 
