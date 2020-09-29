@@ -6,7 +6,7 @@ def index(request):
     return render(request, 'frontend/index.html',{'products' : products})
 
 def about(request):
-    return render(request, 'frontend/about.html')
+    return render(request, 'frontend/About.html')
 
 def contact(request):
     return render(request, 'frontend/contact.html')
